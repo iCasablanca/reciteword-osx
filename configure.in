@@ -1,0 +1,67 @@
+dnl Process this file with autoconf to produce a configure script.
+
+AC_PREREQ(2.52)
+
+AC_INIT(reciteword, 0.8.4, http://reciteword.cosoft.org.cn)
+AC_CONFIG_SRCDIR(src/reciteword.cpp)
+AM_INIT_AUTOMAKE([dist-bzip2])
+
+AM_MAINTAINER_MODE
+AM_CONFIG_HEADER(config.h)
+AM_DISABLE_STATIC
+
+AC_PROG_INTLTOOL([0.22])
+
+AM_PROG_LIBTOOL
+
+AC_ISC_POSIX
+AC_PROG_CC
+AC_PROG_CXX
+AC_PROG_INSTALL
+AC_PROG_MAKE_SET
+
+dnl ================================================================
+dnl Gettext stuff.
+dnl ================================================================
+GETTEXT_PACKAGE=reciteword
+AC_SUBST(GETTEXT_PACKAGE)
+AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE,"$GETTEXT_PACKAGE", [Gettext package])
+ALL_LINGUAS="zh_CN"
+AM_GLIB_GNU_GETTEXT
+
+dnl
+dnl Start of pkg-config checks
+dnl
+PKG_CHECK_MODULES(RECITEWORD, gtk+-2.0 >= 2.2.0 gthread-2.0 >= 2.2.0 esound)
+RECITEWORD_LIBS="${RECITEWORD_LIBS}"
+RECITEWORD_CFLAGS="\
+	-Wall \
+	$RECITEWORD_CFLAGS"
+
+AC_SUBST(RECITEWORD_LIBS)
+AC_SUBST(RECITEWORD_CFLAGS)
+
+
+dnl ==========================================================================
+
+
+AC_OUTPUT([
+Makefile
+po/Makefile.in
+doc/Makefile
+spec/Makefile
+src/Makefile
+src/tools/Makefile
+src/modules/Makefile
+src/skins/Makefile
+src/skins/bdc/Makefile
+src/win32/Makefile
+src/win32/nsis/Makefile
+])
+
+
+echo "
+
+Type \"make\" to compile reciteword.
+
+"

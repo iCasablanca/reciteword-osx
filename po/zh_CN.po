@@ -1,0 +1,396 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# This file is distributed under the same license as the PACKAGE package.
+# huzheng <huzheng_001@163.com>, 2002.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: reciteword-0.6.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-11-28 15:40+0800\n"
+"PO-Revision-Date: 2002-09-22 15:14+0800\n"
+"Last-Translator: huzheng <huzheng_001@163.com>\n"
+"Language-Team: zh_CN <i18n-translation@lists.linux.net.cn>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/about.cpp:69 src/choosebook.cpp:570
+msgid "About"
+msgstr "关于"
+
+#: src/choosebook.cpp:387
+msgid "hardbooks"
+msgstr "疑难词库"
+
+#: src/choosebook.cpp:393
+msgid "my books"
+msgstr "个人单词库"
+
+#: src/choosebook.cpp:400
+msgid "books"
+msgstr "单词库"
+
+#: src/choosebook.cpp:433
+msgid "Directories"
+msgstr "目录"
+
+#: src/choosebook.cpp:545
+msgid "Book Name"
+msgstr "书名"
+
+#: src/choosebook.cpp:550
+msgid "Count"
+msgstr "单词数"
+
+#: src/choosebook.cpp:555
+msgid "Author"
+msgstr "作者"
+
+#: src/choosebook.cpp:560
+msgid "Website"
+msgstr "网址"
+
+#: src/choosebook.cpp:565
+msgid "Email"
+msgstr "邮箱"
+
+#: src/collectword.cpp:128
+msgid "Collect my hard words"
+msgstr "收集我的疑难单词"
+
+#: src/dict.cpp:153
+msgid "Dict"
+msgstr "词典"
+
+#: src/dict.cpp:284
+msgid "Dict initialization failed,Dict data files not found!"
+msgstr "词典初始化失败,未找到词典数据文件!"
+
+#: src/dict.cpp:288
+msgid ""
+"Type ESC to quit.\n"
+"Type Ctrl-backspace to remove the typed word in entry."
+msgstr ""
+"按ESC键退出。\n"
+"按Ctrl-backspace清空文本框中的字符。"
+
+#: src/help.cpp:82
+#, c-format
+msgid "File \"%s\" not found!"
+msgstr "文件\"%s\"未找到！"
+
+#: src/help.cpp:88
+#, c-format
+msgid "Open file \"%s\" failed!"
+msgstr "打开文件\"%s\"失败！"
+
+#: src/help.cpp:129
+msgid "Help"
+msgstr "帮助"
+
+#: src/help.cpp:141
+msgid "overview.txt"
+msgstr "overview.zh_CN.txt"
+
+#: src/help.cpp:143
+msgid "firstrecite.txt"
+msgstr "firstrecite.zh_CN.txt"
+
+#: src/help.cpp:145
+msgid "revise.txt"
+msgstr "revise.zh_CN.txt"
+
+#: src/help.cpp:147
+msgid "shooting.txt"
+msgstr "shooting.zh_CN.txt"
+
+#: src/help.cpp:149
+msgid "hearing.txt"
+msgstr "hearing.zh_CN.txt"
+
+#: src/help.cpp:151
+msgid "typing.txt"
+msgstr "typing.zh_CN.txt"
+
+#: src/help.cpp:153
+msgid "rest.txt"
+msgstr "rest.zh_CN.txt"
+
+#: src/help.cpp:155
+msgid "choosebook.txt"
+msgstr "choosebook.zh_CN.txt"
+
+#: src/help.cpp:157
+msgid "filling.txt"
+msgstr "filling.zh_CN.txt"
+
+#: src/help.cpp:159
+msgid "know.txt"
+msgstr "know.zh_CN.txt"
+
+#: src/help.cpp:161
+msgid "wordedit.txt"
+msgstr "wordedit.zh_CN.txt"
+
+#: src/help.cpp:163
+msgid "bookedit.txt"
+msgstr "bookedit.zh_CN.txt"
+
+#: src/help.cpp:165
+msgid "sentence.txt"
+msgstr "sentence.zh_CN.txt"
+
+#: src/mark.cpp:84
+#, c-format
+msgid "%d minutes and %d seconds"
+msgstr "%d分%d秒"
+
+#: src/option.cpp:46
+msgid "Skins"
+msgstr "皮肤"
+
+#: src/option.cpp:48
+msgid "Fonts"
+msgstr "字体"
+
+#: src/option.cpp:55
+msgid "Firstrecite_skim"
+msgstr "单词初记-浏览"
+
+#: src/option.cpp:57
+msgid "Firstrecite_test"
+msgstr "单词初记-测试"
+
+#: src/option.cpp:59
+msgid "Revise_Group"
+msgstr "复习-选组"
+
+#: src/option.cpp:61
+msgid "Revise_Test"
+msgstr "复习-测试"
+
+#: src/option.cpp:63
+msgid "Revise_Skim"
+msgstr "复习-再现"
+
+#: src/option.cpp:70
+msgid "Sound"
+msgstr "声音"
+
+#: src/option.cpp:77 src/reciteword.cpp:1387
+msgid "ReciteWord"
+msgstr "背单词"
+
+#: src/option.cpp:78
+msgid "Form"
+msgstr "窗口"
+
+#: src/option.cpp:79
+msgid "Misc"
+msgstr "其它"
+
+#: src/option.cpp:253
+msgid "Categories"
+msgstr "分类"
+
+#: src/option.cpp:301
+msgid ""
+"Choose the skin.You need to restart the program\n"
+"to get effect.\n"
+"\n"
+"Skin:"
+msgstr ""
+"选择皮肤。你需要重新运行本程序以生效。\n"
+"\n"
+"皮肤:"
+
+#: src/option.cpp:365
+msgid "Choose the normal english font"
+msgstr "选择一般英文字体"
+
+#: src/option.cpp:387
+msgid "Choose the big english font"
+msgstr "选择大英文字体"
+
+#: src/option.cpp:409
+msgid "Choose the local language font"
+msgstr "选择中文字体"
+
+#: src/option.cpp:412
+msgid "Local language font"
+msgstr "中文字体"
+
+#: src/option.cpp:436
+msgid ""
+"Seting the fonts.You need to restart the program\n"
+"to get effect."
+msgstr "设置字体。你需要重新运行本程序以生效。"
+
+#: src/option.cpp:440
+msgid "Font:"
+msgstr "字体:"
+
+#: src/option.cpp:448
+msgid "Use Custom font."
+msgstr "使用自定义字体。"
+
+#: src/option.cpp:458
+msgid "Normal english font:"
+msgstr "一般英文字体:"
+
+#: src/option.cpp:468 src/option.cpp:480 src/option.cpp:492
+msgid "Choose"
+msgstr "选择"
+
+#: src/option.cpp:471
+msgid "Big english font:"
+msgstr "大英文字体:"
+
+#: src/option.cpp:483
+msgid "Local language's font:"
+msgstr "中文字体:"
+
+#: src/option.cpp:517
+msgid "The revise_group's settings."
+msgstr "复习-选组的设置。"
+
+#: src/option.cpp:521
+msgid "Revise"
+msgstr "每组复习"
+
+#: src/option.cpp:531
+msgid "times for echo group.(default:6)"
+msgstr "次。(缺省:6)"
+
+#: src/option.cpp:554
+msgid "The Firstrecite_skim's settings."
+msgstr "单词初记-浏览的设置。"
+
+#: src/option.cpp:558
+msgid "Wait"
+msgstr "等待"
+
+#: src/option.cpp:568
+msgid "milliseconds for echo word.(default:4000)"
+msgstr "毫秒后跳到下一个单词。(默认：4000)"
+
+#: src/option.cpp:598
+msgid "The Firstrecite_test's settings."
+msgstr "单词初记-测试的设置。"
+
+#: src/option.cpp:602 src/option.cpp:661
+msgid "Show"
+msgstr "显示"
+
+#: src/option.cpp:612 src/option.cpp:671
+msgid "chars as the head-char.(default:2)"
+msgstr "个字母作为头字母。(默认：2)"
+
+#: src/option.cpp:651
+msgid "The revise_test's settings."
+msgstr "复习-测试的设置。"
+
+#: src/option.cpp:654
+msgid "Read word when answer is right."
+msgstr "当答案正确时读单词。"
+
+#: src/option.cpp:705
+msgid "The Revise_skim's settings."
+msgstr "复习-测试的设置。"
+
+#: src/option.cpp:710
+msgid "Show word for"
+msgstr "单词停留显示"
+
+#: src/option.cpp:720
+msgid "milliseconds.(default:1000)"
+msgstr "毫秒。(默认：1000)"
+
+#: src/option.cpp:725
+msgid "Show meaning for"
+msgstr "词意停留显示"
+
+#: src/option.cpp:734
+msgid "milliseconds.(default:2000)"
+msgstr "毫秒。(默认：2000)"
+
+#: src/option.cpp:777
+msgid "Sound settings."
+msgstr "声音设置。"
+
+#: src/option.cpp:780
+msgid "Play sound."
+msgstr "播放声音。"
+
+#: src/option.cpp:789
+msgid "Play sound event."
+msgstr "播放事件音效。"
+
+#: src/option.cpp:793
+msgid "Play read word's sound."
+msgstr "读单词。"
+
+#: src/option.cpp:872
+msgid "Cat_egories:"
+msgstr "类别(_E)"
+
+#: src/option.cpp:894
+msgid "Preferences"
+msgstr "选项"
+
+#: src/record.cpp:71
+msgid "Record"
+msgstr "成绩"
+
+#: src/record.cpp:93
+#, c-format
+msgid "You had firsterecited %ld words,revised %ld words."
+msgstr "你已经单词初记了 %ld 个单词，强化复习了 %ld 个单词。"
+
+#: src/revise.cpp:373
+#, c-format
+msgid "found %ld groups in total"
+msgstr "共找到 %ld 个要复习的组"
+
+#: src/revise.cpp:384
+#, c-format
+msgid "G%d"
+msgstr "组%d"
+
+#: src/revise_test.cpp:2003
+#, c-format
+msgid "%dth test"
+msgstr "第%d次测试"
+
+#: src/revise_test.cpp:2017
+msgid "Temporary test."
+msgstr "临时测试。"
+
+#: src/revise_test.cpp:2530
+msgid "My Hard Words"
+msgstr "我的疑难单词"
+
+#: src/revise_test.cpp:2530
+msgid "this is the user's hard words book"
+msgstr "这是用户的疑难单词书库"
+
+#. This is the default font setting for Windows, change it to fit your locale.
+#: src/rwconfig.cpp:74
+#, c-format
+msgid ""
+"use_custom_font=1\n"
+"normal_english_font=Sans 9\n"
+"big_english_font=Sans 20\n"
+"local_language_font=Sans 10\n"
+msgstr ""
+"use_custom_font=1\n"
+"normal_english_font=arial Bold 9\n"
+"big_english_font=arial Bold 20\n"
+"local_language_font=simsun 10\n"
+
+#~ msgid "_Close"
+#~ msgstr "关闭(_C)"
+
+#~ msgid "hardwords"
+#~ msgstr "疑难词库"

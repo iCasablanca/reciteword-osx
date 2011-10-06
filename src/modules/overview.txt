@@ -1,0 +1,166 @@
+If you like this software, you can consider to donate to ReciteWord Fund and help ReciteWord develop further, visit: http://reciteword.cosoft.org.cn/reciteword/index.html#donate
+
+**Glabal Kerboard Accelerator:
+  Ctrl-F1: help
+  Ctrl-F2: record
+  Ctrl-F3: setting
+  Ctrl-F4: dict
+  Ctrl-F5: about
+  Ctrl-Q , Alt-X : Quit
+  Alt-Z: Iconify
+
+**Main window's Kerboard Accelerator:
+  help: F1
+  record: F2
+  setting: F3
+  dict: F4
+  about: F5
+
+  choosebook: C , 1
+  firstrecite: F, 2
+  revise: R, 3
+  shooting: S, 4
+  typing: T, 5
+  rest: E, 6
+  know: W, 7
+
+**About this software**
+ReciteWord - Recite Word Eassily
+http://reciteword.cosoft.org.cn
+Copyright (C) 2002-2007 Hu Zheng <huzheng_001@163.com>
+
+This program is free software; you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation; either version 2 of the License, or (at your option) any later version.
+
+**AURHORS**
+Hu Zheng <huzheng_001@163.com> http://forlinux.yeah.net  Maintainer.
+YeLang  <243@sina.com> http://fwolf.126.com  Dict's code.
+Bu Weiming <buweiming@163.com> http://buweiming.yeah.net The new "rw" and "rw_en" skins.
+
+**Changelog**
+2007-11-28 reciteword-0.8.4 (The past youth)
+	Another maintain version.
+	* Fix 64-bit compile problem.
+	* Update books.
+	* Improve windows installer.
+
+2006-03-27 reciteword-0.8.3 (complete)
+	More than two years have past, so comes this version without much changes.
+	* Update books.
+	* Usability improve on Fedora core 5.
+	
+2003-07-02 reciteword-0.8.2 (perfect series: the third)
+	It is 4 months since the previous release, but i only cost 2 days to maintain this new release :)
+	
+	* Some usability improves.
+	* Ctrl-BackSpace can clear the entry.
+	* GNOME2.2 StartupNotify.
+	* Install path changed.
+	* Windows port become stable, with an installer.
+	
+2003-03-08 reciteword-0.8.1
+	This is the "perfect again" edition,except that the windows edition of reciteword is very not stable.
+	i only cost few days on this vesion, make it more convenience to use.
+		
+	* Windows edition.As gtk2 's win32 support is much better,this version can run properly,but it is not stable.
+	* The phonetic display label is rewritten,it is much faster when moving in the GtkFixed widget.
+	* More small setting in Preferences dialog.
+	* More keyboard accelerator.
+	* Choosebook's list can sort now.Add the personal books directory support.
+	* Chooseword dialog 's more smart.
+	* Update books.		
+
+2002-10-30 reciteword-0.8.0
+	This is the perfect edition :) i will turned to spend more time on other projects.
+
+	Code: 22900 lines.
+	* A new skin,thanks to BuWeiming's hard work.The English skin will be out soon.
+	* The preferences window,incluing the skins,fonts settings.
+	* Revise_test will record your mark,and the Mark window.
+	* User's setting file will been save in ~/.reciteword/
+	* Many little changes,i.e. cursors change,Alt-Z to iconify etc.
+	* Dict 's real-time search setting.
+	* Play sound event when menu is show,button is active.
+	* Firstrecite_test's "return to group" dialog,Revise_test's dialog added the "return to chooseword" radio.
+	* Added some new books.
+	* Dict's icon,and it is add to the gnome menu.
+	* Freebsd4.7 portion.
+	* I have reported those gtk-win32 buges,and they have been fixed,so ReciteWord's windows edition will be out soon.
+
+2002-10-03 reciteword-0.7.0
+	Now i spend more time on using this software than developing this software :)
+
+	Code: 21200 lines.
+	* Generate the default setting when run at the first time.
+	* Shooting,typing's checkbuttons,chooseword,readword,pause buttons can work now.
+	* Pause when the main menu get shown.
+	* Drag on the upper of the window can move the window.
+	* Help window.
+	* Make most length,headchar,sndeffect checkbuttons work.
+	* Revise-group's button can display the group index.
+	* Add some lables to show the current word index etc.
+	* Tooltips.
+	* Shooting 's cntoen can work now.
+	* Bug fixes,detail optimization.
+
+2002-09-23 reciteword-0.6.0
+	This version make reciteword being a useful tool. 
+
+	Code: 19300 lines.
+	* Full changed to autoconf,automake.Made rpm packages to make it easy to install.
+	* Internationalization supported.
+	* Book file changed to UTF-8 coding.Choosebook strengthen.
+	* Firstrecite-group,chooseword strengthen.Disorder checkbuttons can work now.
+	* Firstrecite-skim,firstrecite-test,revise-test,revise-skim's checkbuttons come out,half can work.
+	* Chooseword,readword buttons can work.
+	* Play sound using theads,it is much more efficiency.
+	* Dict change to search in real time,code optimization.
+	* Kerboard accelerator strengthen,main menu strengthen.
+	* Revise-test will collect your hard to recite words automatically.
+	* Mouse wheel support.
+	* Win32 porting 's bugs fixed,only left some bug rely to gtk2 win32 port's bug,see README.win32 for details.
+
+2002-09-10 reciteword-beta-1
+	For some reason,reciteword's development is stoped for nearly 4 mouths.I continued developing in 8.31.
+
+	Code: 16700 lines.
+	* Ported form gtk1.2 to gtk2,not using any deprecated functions.
+	* Change from Makefile to Autoconf,Automake,but not full changed.
+	* Choosebook can work,incluing almost 400 books,they are converted form "bdc","wordlover","wyabdc".
+	* Have the RealPeopleTTS,the words can be read when reciting.It comes from wyabdc,many thanks to it's author xiaozima,http://www.zhimajie.net.
+	* Sound effect is much more full supported.
+	* Basic Keyboard Accelerator support.
+	* Know,rest,help have the basic form,i will add detail functions in the later version.
+	* Many little changes,bug fixes.
+	* Win32 port.Using Dev-C++,now it can be compiled successfully,and the main form can be display,but it can't work properly.
+	
+2002-05-10 reciteword-alpha-1
+	Code: 10400 lines.
+	* Shooting can work.
+	* Typing can work,including fingering tips and speed recorder.
+	* Chooseword form.
+	* Firstrecite-group,revise-group 's function is more powerful.
+	* Font size,color and many little changes to make it looks well and easy to use.
+	* Phonetic can be display now.
+	* Wordlover's book files convertion tool.
+	* Yelang's dict code included,using xdict 's engine and data file.
+	It works well.
+
+2002-04-20 reciteword-pre-alpha-3
+	Code: 6900 lines.
+	* Fistrecite-test's entry is fresh new,instead of the gtk's entry.
+	* Revise-group,revise-test,revise-skim have the basic functions.
+	* Save the settings.
+	* Simple sound effect.
+
+2002-04-02 reciteword-pre-alpha-2
+	Code: 3800 lines.
+	* Book file format.
+	* Firstcite-group,firstrecite-skim,firstrecite-test have the basic functions,it can work now.
+
+2002-03-10 reciteword-pre-alpha-1
+	Code: 1800 lines.
+	* About,dict and main form.
+	* Menu
+	* Firstrecite-group
+
+2002-02-26 Start this project.

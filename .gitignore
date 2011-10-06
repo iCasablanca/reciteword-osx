@@ -1,0 +1,23 @@
+# Mac OS X Finder and whatnot
+.DS_Store
+profile
+
+# no useful files
+log/*.log
+tmp/**/*
+public/cache/**/*
+doc/api
+doc/app
+**/~*
+
+#unix output files
+*.[oa]
+
+# Other source repository archive directories (protects when importing)
+.hg
+.svn
+CVS
+
+# automatic backup files
+*.swp
+*~

@@ -1,0 +1,35 @@
+It is suggested that you download those RPM files and intall them.
+
+####
+tar -xjvf reciteword-*.tar.bz2
+cd reciteword-*
+./configure --prefix=/usr
+make
+make install
+reciteword &
+reciteword -d &   // only run dict.
+
+
+####
+To install books
+
+tar -xjvf reciteword-books-*.tar.bz2
+mv books /usr/share/reciteword/
+
+####
+To install dict data files
+
+tar -xjvf reciteword-dicts-*.tar.bz2
+mv dicts /usr/share/reciteword/
+
+####
+To install WyabdcRealPeopleTTS
+
+tar -xjvf WyabdcRealPeopleTTS.tar.bz2
+mv WyabdcRealPeopleTTS /usr/share
+
+####
+To install rw skin
+
+tar -xjvf reciteword-skins-rw-*.tar.bz2
+mv rw /usr/share/reciteword/skins/

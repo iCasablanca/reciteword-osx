@@ -1,0 +1,2 @@
+SUBDIRS= bdc
+EXTRA_DIST =

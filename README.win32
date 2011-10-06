@@ -1,0 +1,47 @@
+You can read the doc/README.win32 file of stardict for detail. http://stardict.sourceforge.net
+
+=====
+reciteword can be compiled and run in windows.
+
+Please install Dev-C++,gtk2 runtime and Dev-C++ 's gtk2 dev package(i18n,imagelib,gtk2),they can be found in http://www.bloodshed.net/dev/
+
+Because Dev-C++'s gtk2 runtime and dev package is too old, don't use them. Download this: http://sourceforge.net/projects/gtk-win
+
+here is a reciteword.dev
+use Dev-C++ to compile it.becase the compile command is too long,it can't be compile in win98,please use win2000 or XP.
+
+my environment: win2000,Dev-C++ 4.9.8
+
+because esound is not ported to windows,i add one win32 api(PlaySound)to play sound,it make reciteword.exe's size increase from 437 K to 726k :O
+
+After compiled, you will find reciteword.exe at src/.
+
+BUG: if you select the Revise-Group, then select the Typing or Shooting by main menu, reciteword will got freezed(in Shooting, you can see that gtk_timeout is still working). I find if we disable the intl feature(rename locale/*/reciteword.mo), this bug will be disappear. libintl's BUG???
+
+
+========
+To build the installer.
+
+Grab and install NSIS: http://www.nullsoft.com/free/nsis
+I was using the v2.0b3 version.
+
+i use linux commmand to illustrate the steps, but you cann't do it in this way :)
+
+cd reciteword-0.8.2
+mkdir win32-install-dir
+cp readme.txt src/reciteword.exe win32-install-dir
+mkdir -p win32-install-dir/locale/zh_CN/LC_MESSAGES/
+cp po/zh_CN.gmo win32-install-dir/locale/zh_CN/LC_MESSAGES/reciteword.mo
+
+copy the "dicts","modules","skins","books" directories into "win32-install-dir".
+Notice: as the "books" directory have Chinese filename files, if you use cp, the filename may occupy some error. tar this dirctory, and extract it when in windows.
+
+double click the reciteword-installer.nsi :) NSIS will build the installer.
+
+This installer don't contains the gtk2-runtime, download it at: http://sourceforge.net/projects/gtk-win
+
+ReciteWord's win32 port got many experience(i.e. dll hell make reciteword freezed) from Gaim: http://gaim.sourceforge.net/win32/index.php
+
+Note: when use fopen(), use "rb", never "r".
+
+huzheng 2003.07.02

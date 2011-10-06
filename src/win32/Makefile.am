@@ -1,0 +1,2 @@
+SUBDIRS= nsis
+EXTRA_DIST =

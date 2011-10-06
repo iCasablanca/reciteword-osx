@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=Recite Word
+Name[zh_CN]=背单词
+Comment=Recite word easily
+Comment[zh_CN]=黑客背单词
+Exec=reciteword
+Terminal=false
+Icon=reciteword.png
+StartupNotify=true
+Categories=Education;Languages;

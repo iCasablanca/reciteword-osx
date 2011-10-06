@@ -1,0 +1,14 @@
+# List of source files containing translatable strings.
+# Please keep this file sorted alphabetically.
+src/about.cpp
+src/choosebook.cpp
+src/collectword.cpp
+src/dict.cpp
+src/help.cpp
+src/mark.cpp
+src/option.cpp
+src/reciteword.cpp
+src/record.cpp
+src/revise.cpp
+src/revise_test.cpp
+src/rwconfig.cpp

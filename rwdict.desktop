@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Type=Application
+Name=RWDict
+Name[zh_CN]=词典
+Comment=ReciteWord's Dict
+Comment[zh_CN]=黑客背单词的词典
+Exec=reciteword -d
+Terminal=false
+Icon=rwdict.png
+StartupNotify=true
+Categories=Utility;Dictionary;

@@ -1,0 +1,63 @@
+reciteword合作开发介绍
+我们要开发的软件叫reciteword.界面和功能都模仿www.pgy.com.cn的轻轻松松背单词，但会加入我们自己想要的功能，并加入国际化支持等。
+
+开发基地在cosoft.org.cn/projects/reciteword
+只要你有兴趣，随时都可以加入我们，我们使用cvs进行合作开发.
+
+首先，你需要到cosoft.org.cn注册一个用户，然后把你的用户名发邮件告诉我(forlinux@263.net)，这样我就可以把你加为开发组的成员，你才会有写cvs的权限.
+
+接着请到http://cosoft.org.cn/mail/?group_id=138 订阅邮件列表,以后相互交流就靠这个了.由于qq plug for gaim的出现，现在在linux下用qq也很方便了，所以如果你有qq号，也可以相互告诉一下.我的是1706932,laputan的是12933693.
+
+现在你就是我们的成员了.
+为了使用cvs，你要进行以下几步.
+
+export CVSROOT=:ext:huzheng@cvs.cosoft.org.cn:/sfroot/cvs/reciteword
+    //   cosoft.org.cn的cvs使用的是ext协议,而不是许多文章介绍的pserver.
+    //   huzheng是我的用户名（这个你改成你自己的）,reciteword是我们的项目名.
+export CVS_RSH=ssh
+    // 这也使必需的.
+   
+把这两行命令可以加入~/.bash_profile   以后不用每次都输入了.重新登录一下，使环境变量生效.
+
+cd
+mkdir program
+cd program
+cvs checkout example
+  //这是一个c++和gtk+编的系统资源查看软件，可以做些参考，但与我们项目无关.
+cvs checkout reciteword
+这样你就得到了最新的代码.
+第一次用这个命令获得文件，以后直接cvs update -dP刷新就行了，(-d是下载新目录,-P是删除空目录,平时刷新别忘了加这两个参数,不然一些新文件夹就不会下载)这个在你开发前要做一下.
+
+如果你修改了一个文件,如reciteword.cpp，用下面的命令跟新
+cvs commit -m "i fixed a bug" reciteword.cpp
+  //   -m "i fixed a bug" 是加入一个评论.
+  其实我平时都是直接cvs commit -m "i fixed a bug"，这样cvs会自动检查哪个文件做了修改并上传.
+如果你增加了一个文件
+cvs add newfile.c
+cvs update   //增加或删除文件后还要更新一下服务器
+这样就行了.平时你在make后，会产生些.o之类的"垃圾文件",使用cvs commit并不会把这些垃圾文件也上传.所以真正要增加文件得先cvs add
+删除也差不多
+rm oldfile.c
+cvs remove oldfile.c
+cvs update
+目录也是同样的命令
+增加删除文件后还要加个评论
+cvs commit -m "add a file"
+
+再就是
+cvs tag v001
+这样就把当前的源码状态做个标记。
+以后就可以用
+cvs checkout -r v001 reciteword 来获得这个版本
+
+cvs status
+可以获得你现在本地文件的状态.
+
+cvs log reciteword.cpp
+可以获得这个文件的修改记录.
+
+cvs还有版本冲突的相关功能，这个我还没试过，以后大家再交流经验吧.
+
+大家一起努力，把这个软件编好。
+胡正
+2002.2.26   12:15

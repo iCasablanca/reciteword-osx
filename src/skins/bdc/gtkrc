@@ -1,0 +1,77 @@
+#this file is used for setting color.
+style "collectword-word_label"
+{
+  fg[NORMAL] = {1.0,1.0,1.0}
+}
+widget "*collectword-word_label" style "collectword-word_label"
+
+style "collectword-meaning_label"
+{
+  fg[NORMAL] = {1.0,1.0,1.0}
+}
+widget "*collectword-meaning_label" style "collectword-meaning_label"
+
+style "firstrecite_test-headchar_label"
+{
+  fg[NORMAL] = {0.7,0.4,0.3}
+}
+widget "*firstrecite_test-headchar_label" style "firstrecite_test-headchar_label"
+
+style "help-text_label"
+{
+  fg[NORMAL] = {1.0,1.0,1.0}
+}
+widget "*help-text_label" style "help-text_label"
+
+style "mark-mark_label"
+{
+ font_name = "Sans 28"
+ fg[NORMAL] = {1.0,0,0}
+}
+widget "*mark-mark_label" style "mark-mark_label"
+
+style "record-text_label"
+{
+  fg[NORMAL] = {1.0,1.0,1.0}
+}
+widget "*record-text_label" style "record-text_label"
+
+style "revise_test-wordlist_item_label_1"
+{
+}
+widget "*revise_test-wordlist_item_label_1" style "revise_test-wordlist_item_label_1"
+
+style "revise_test-wordlist_item_label_2"
+{
+}
+widget "*revise_test-wordlist_item_label_2" style "revise_test-wordlist_item_label_2"
+
+style "revise_test-headchar_label"
+{
+  fg[NORMAL] = {0.7,0.4,0.3}
+}
+widget "*revise_test-headchar_label" style "revise_test-headchar_label"
+
+style "shooting-word_label"
+{
+  fg[NORMAL] = {1.0,1.0,1.0}
+}
+widget "*shooting-word_label" style "shooting-word_label"
+
+style "shooting-meaning_label"
+{
+  fg[NORMAL] = {1.0,1.0,1.0}
+}
+widget "*shooting-meaning_label" style "shooting-meaning_label"
+
+style "shooting-wordindex_label"
+{
+  fg[NORMAL] = {1.0,1.0,1.0}
+}
+widget "*shooting-wordindex_label" style "shooting-wordindex_label"
+
+style "shooting-wordcount_label"
+{
+  fg[NORMAL] = {1.0,1.0,1.0}
+}
+widget "*shooting-wordcount_label" style "shooting-wordcount_label"
